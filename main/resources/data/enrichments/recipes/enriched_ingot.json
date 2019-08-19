@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "enrichments:enriched_block"
+    }
+  ],
+  "result":
+  {
+    "item": "enrichments:enriched_ingot",
+    "result": 9
+  }
+}

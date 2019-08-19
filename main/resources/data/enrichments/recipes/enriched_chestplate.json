@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "I I",
+    "III",
+    "III"
+  ],
+
+  "key":
+  {
+    "I": {"item": "enrichments:enriched_ingot"}
+  },
+
+  "result":
+  {
+    "item": "enrichments:enriched_chestplate"
+  }
+}

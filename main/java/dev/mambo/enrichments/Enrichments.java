@@ -62,7 +62,7 @@ public class Enrichments
             event.getRegistry().registerAll
             (
                 // ITEMS
-                ItemList.enriched_ingot = new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(location("enriched_ingot")),
+                ItemList.enriched_ingot = new Item(new Item.Properties().group(ENRICHMENTS_ITEM_GROUP)).setRegistryName(location("enriched_ingot")),
 
                 ItemList.enriched_sword = new SwordItem(ToolMaterialList.ENRICHED, 3, -2.4f, new Item.Properties().group(ENRICHMENTS_ITEM_GROUP)).setRegistryName(location("enriched_sword")),
                 ItemList.enriched_pickaxe = new PickaxeItem(ToolMaterialList.ENRICHED, 1, -2.8f, new Item.Properties().group(ENRICHMENTS_ITEM_GROUP)).setRegistryName(location("enriched_pickaxe")),
@@ -79,6 +79,16 @@ public class Enrichments
                 // BLOCKS
                 BlockItemList.enriched_block = new BlockItem(BlocksList.enriched_block, new Item.Properties().group(ENRICHMENTS_ITEM_GROUP)).setRegistryName(Objects.requireNonNull(BlocksList.enriched_block.getRegistryName())),
                 BlockItemList.enriched_ore = new BlockItem(BlocksList.enriched_ore, new Item.Properties().group(ENRICHMENTS_ITEM_GROUP)).setRegistryName(Objects.requireNonNull(BlocksList.enriched_ore.getRegistryName()))
+
+
+                    // THINGS THAT NEED TO BE DONE.
+                    /*
+
+                    fix armor models,
+                    fix ingot from block crafting amount,
+                    add smelting recipe for ore to ingot.
+
+                     */
 
             );
         }

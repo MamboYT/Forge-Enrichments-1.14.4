@@ -1,11 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
-
-  "pattern":
+  "ingredients":
   [
-    { "block": "minecraft:iron_ore" },
-    { "block": "minecraft:gold_ore" }
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:gold_ore"
+    }
   ],
-
-  "result": { "block": "enrichments:enriched_ore" }
+  "result":
+  {
+    "item": "enrichments:enriched_ore"
+  }
 }
