@@ -1,0 +1,18 @@
+{
+  "itemGroup.enrichments": "Enrichments",
+
+  "item.enrichments.enriched_ingot": "Enriched Ingot",
+
+  "item.enrichments.enriched_sword": "Enriched Sword",
+  "item.enrichments.enriched_pickaxe": "Enriched Pickaxe",
+  "item.enrichments.enriched_axe": "Enriched Axe",
+  "item.enrichments.enriched_shovel": "Enriched Shovel",
+  "item.enrichments.enriched_hoe": "Enriched Hoe",
+  "item.enrichments.enriched_helmet": "Enriched Helmet",
+  "item.enrichments.enriched_chestplate": "Enriched Chestplate",
+  "item.enrichments.enriched_leggings": "Enriched Leggings",
+  "item.enrichments.enriched_boots": "Enriched Boots",
+
+  "block.enrichments.enriched_block": "Enriched Block",
+  "block.enrichments.enriched_ore": "Enriched Ore"
+}
