@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "": { "model": "enrichments:block/enriched_ore" }
+    }
+}
